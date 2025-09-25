@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    cursor: pointer;
+}
+
+.navbar {
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    height: 11vh;
+    justify-content: space-between;
+    color: #b3b3b3e3;
+
+}
+
+.first {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 38vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #b3b3b331;
+    border-radius: 30px;
+    height: 3em;
+    align-content: space-between;
+    align-items: center;
+
+}
+
+.search:hover {
+    background-color: #b3b3b33d;
+
+}
+
+.search input {
+    width: 31vw;
+    background-color: #b3b3b300;
+    border: 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.home {
+    background-color: #b3b3b331;
+    border-radius: 100px;
+    padding: 0.3rem;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.home:hover {
+    padding: 0.4rem;
+    background-color: #b3b3b33d;
+
+}
+
+.search p {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.second {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}
+
+.second ul {
+    list-style: none;
+    display: flex;
+    gap: 0.7em;
+
+}
+
+.second ul li {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.second ul li:hover {
+    color: white;
+    font-size: 16.5px;
+}
+
+.second p {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.second span {
+    cursor: pointer;
+}
+
+.second span:hover {
+    color: white;
+    font-weight: 500;
+}
+
+.install {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 0.4em;
+    cursor: pointer;
+
+}
+
+.install:hover {
+    color: white;
+    font-weight: 500;
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.9rem;
+    border-radius: 40px;
+    border: 0px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-right: 1rem;
+    cursor: pointer;
+    width: 8vw;
+
+}
+
+.log:hover {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.916);
+}
+
+.middle {
+    display: flex;
+    gap: 0.8vw;
+}
+
+.column {
+    background-color: rgba(128, 128, 128, 0.087);
+    border-radius: 10px;
+
+}
+
+.right {
+    height: 87vh;
+    width: 34vw;
+    border-radius: 10px;
+    margin-left: 0.5rem;
+    color: white;
+    background-color: #121212;
+}
+
+.library {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+    font-weight: 700;
+
+
+}
+
+.playlist {
+    margin: 0.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.5rem;
+
+}
+
+.upper {
+    height: 40vh;
+    overflow-y: auto;
+    background-color: #121212;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.135);
+    padding: 0.6rem;
+    padding-left: 1.4rem;
+    justify-content: center;
+}
+
+.create button {
+    padding: 0.5rem;
+    border-radius: 40px;
+    width: 10vw;
+    border: 0px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.create button:hover {
+    padding: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.916);
+}
+
+.podcast {
+    height: 20vh;
+    background-color: rgba(128, 128, 128, 0.169);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    padding-left: 1.4rem;
+    justify-content: center;
+}
+
+.podcast button {
+    width: 10vw;
+    border-radius: 40px;
+    border: 0px;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.podcast button:hover {
+    height: 7vh;
+    padding: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.916);
+
+}
+
+.properties ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2em;
+    font-weight: 100;
+    font-size: 12px;
+    width: 25vw;
+    margin-top: 3rem;
+    cursor: pointer;
+    padding-left: 33px;
+}
+#coverup{
+    width: 10vw;
+
+}
+.lower p {
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 12px;
+    margin: 1rem;
+    margin-left: 2rem;
+    width: 3vw;
+}
+
+.lower p:hover {
+    text-decoration: underline;
+}
+
+.end {
+    background-color: black;
+    width: 8vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+    border: 0.1px solid white;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.end:hover {
+    border: 1.4px solid white;
+}
+
+.main {
+    width: 64vw;
+    height: 87vh;
+    background-color: #121212;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.148), #121212 30%);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    color: #b3b3b3e3;
+    padding: 1.5rem;
+}
+
+.trending {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.heading p {
+    cursor: pointer;
+}
+
+.heading :hover {
+    color: white;
+    text-decoration: underline;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 1vw;
+    color: white;
+    height: 60vh;
+    width: 60vw;
+    margin-left: 1.5rem;
+}
+.bete{
+    height: 40vh;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    justify-content: space-between;
+    align-content: center;
+    border-radius: 10px;
+}
+.bete:hover{
+    background-color: #b3b3b311;
+    
+}
+.common{
+    height: 20vh;
+    width: 15vw;
+}
+.common img{
+    height: 30vh;
+    border-radius: 10px;
+}
+.written:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.green{
+    /*position: relative;
+    margin-top: -50px;
+    margin-left: 120px;
+    background: #1db954;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    position:absolute;
+    bottom: 250px;
+    cursor: pointer;
+    right: 400px;
+    background-color: rgb(1, 235, 141);
+    opacity: 1;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: 000;
+    padding: 0.5rem;*/
+    
+}
+.playbar{
+    height: 10vh;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    margin-left: 20vw;
+}
+.line{
+    border:2px solid white;
+    border-radius: 10px;
+    width: 60vw;
+    margin-left: 1.5rem;
+    bottom: 27px;
+    position: absolute;
+}
+.songname{
+    color: white;
+    margin-left: 1.8rem;
+}
+.songtime{
+    color: white;
+    margin-left: 6rem;
+}
